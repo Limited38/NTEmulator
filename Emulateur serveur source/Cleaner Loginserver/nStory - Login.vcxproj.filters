@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Nostale">
+      <UniqueIdentifier>{c6f1194f-1518-416b-a9cb-6d5b3229ad45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nostale\Files">
+      <UniqueIdentifier>{6cffece8-4f5e-45b1-8f61-667ef94ee272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nostale\Network">
+      <UniqueIdentifier>{3095826b-ad86-4f17-8a96-a41c3a0ef62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Nostale\Other">
+      <UniqueIdentifier>{e569977c-3c91-4a78-91c1-33d5610d48a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nostale\Network\Packet Stuff">
+      <UniqueIdentifier>{9ac6f424-2a5c-496b-bd17-14286726b1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nostale\Network\Database Stuff">
+      <UniqueIdentifier>{4bfae87b-98af-4070-a4f5-3a926f595b30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nStory - Login.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Nostale\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Nostale\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Nostale\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Nostale\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Nostale\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionList.cpp">
+      <Filter>Nostale\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Nostale\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketEncoding.cpp">
+      <Filter>Nostale\Network\Packet Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler.cpp">
+      <Filter>Nostale\Network\Packet Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketFactory.cpp">
+      <Filter>Nostale\Network\Packet Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectAccessor.cpp">
+      <Filter>Nostale\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalConfig.cpp">
+      <Filter>Nostale\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Nostale\Network\Database Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnectionFilter.cpp">
+      <Filter>Nostale\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Nostale\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Nostale\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Nostale\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Nostale\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Nostale\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionList.h">
+      <Filter>Nostale\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Nostale\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketEncoding.h">
+      <Filter>Nostale\Network\Packet Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler.h">
+      <Filter>Nostale\Network\Packet Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketFactory.h">
+      <Filter>Nostale\Network\Packet Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectAccessor.h">
+      <Filter>Nostale\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketTypes.h">
+      <Filter>Nostale\Network\Packet Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalConfig.h">
+      <Filter>Nostale\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Nostale\Network\Database Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseQuerys.h">
+      <Filter>Nostale\Network\Database Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnectionFilter.h">
+      <Filter>Nostale\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

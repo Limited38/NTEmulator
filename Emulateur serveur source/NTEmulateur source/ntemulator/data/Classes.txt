@@ -1,0 +1,38 @@
+//Abi
+<START>
+class=0
+//Base Stats
+stamina=205
+stam_plus=15
+intelligence=50
+int_plus=9
+walkspeed=11
+//Erste Attack
+pa_type=0
+pa_attackgrade=0
+pa_dmgmin=9
+pa_dmgmax=9
+pa_hitrate=9
+pa_critchance=0
+pa_critdamage=0
+//Zweite Attack
+sa_type=1
+sa_attackgrade=0
+sa_dmgmin=9
+sa_dmgmax=9
+sa_hitrate=18
+sa_critchance=0
+sa_critdamage=0
+//Defence
+def_grade=0
+sr_defence=4
+sr_dodge=9
+lr_defence=4
+lr_dodge=9
+magic_decrease=4
+//Resis
+res_fire=0
+res_water=0
+res_light=0
+res_darkness=0
+<END>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2429e825-c6e4-44ed-93de-f9a9c4a128ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{8d53ca03-1801-4bf0-8996-d2d1f3a247aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{87d109b9-bea5-4fa4-bdb3-12530b63b784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{e3a3c9a5-0124-44b1-87ab-5543fd1bc62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{b2f08449-8dc7-47ca-83fd-7166c425392b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="TPacketCypher.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="TGeneral.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TConfig.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="TServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="TDatabase.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="TLogin.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="NTEmulatorLogin.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TPacketCypher.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="TConfig.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="TGeneral.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="TDatabase.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="TLogin.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
